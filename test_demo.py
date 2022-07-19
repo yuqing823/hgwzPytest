@@ -18,3 +18,10 @@ def add_function(a, b):
 def test_add(a, b, expected):
     print("a=", a, "b=", b, "expected=", expected)
     assert add_function(a, b) == expected
+
+
+@pytest.mark.parametrize("a", [1, 11, 111])
+@pytest.mark.parametrize("b", [2, 22, 222])
+@pytest.mark.parametrize("c", [3, 33, 333])
+def test_params(a, b, c):
+    print("测试组合：a->%s,b->%s,c->%s" % (a, b, c))

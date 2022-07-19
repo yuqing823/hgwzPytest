@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e2c0e2-d2cc-4667-8905-5cb1da36ad66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hgwzTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hgwzTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythoncode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythoncode/calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_setup_tearDown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_demo.py" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -50,7 +52,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_demo.py">
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="dev" />
+    </force-push-targets>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_calculator.py">
+    <configuration name="pytest for test_demo.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_demo.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="hgwzTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +88,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_demo.test_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_calculator.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_calculator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -83,9 +122,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_setup_tearDown.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_setup_tearDown.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_calculator.py" />
+        <item itemvalue="Python tests.pytest in test_setup_tearDown.py" />
         <item itemvalue="Python tests.pytest in test_demo.py" />
+        <item itemvalue="Python tests.pytest for test_demo.test_add" />
         <item itemvalue="Python tests.pytest for test_demo.test_one" />
       </list>
     </recent_temporary>
@@ -127,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658136670122</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pytestDemo">
+      <created>1658199483085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658199483085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pytestDemo">
+      <created>1658199553513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658199553513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,5 +225,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="新提交" />
   </component>
 </project>
